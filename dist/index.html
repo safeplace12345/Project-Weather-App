@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <fieldset>
+                <legend>CuRRWeather</legend>
+                <form action="#">
+                    <div class="country">
+                        <label for="country">Country</label>
+                        <input type="text" name="country" id="country">
+                    </div>
+                    <div class="city">
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <button class="search">Search</button>
+                </form>
+            </fieldset>
+        </div>
+        <div class="result">
+            <div class="gif">
+                <img src="https://images.unsplash.com/photo-1613673319629-e129feacf8c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80"
+                    alt="image loading">
+            </div>
+            <div class="data">
+                <h5 class="countryname">Lorem ipsum dolor sit.
+                </h5>
+                <div class="tile">
+                    <h6>Current Weather</h6>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+                <div class="tempreture">
+                    <div class="tile">
+                        <h6>Current Temperature</h6>
+                        <p class="temp">Lorem.</p>
+                    </div>
+                    <div class="tile">
+                        <h6>Current pressure</h6>
+                        <p class="pressure">Lorem, ipsum dolor.</p>
+                    </div>
+                    <div class="tile">
+                        <h6>Current humidity</h6>
+                        <p class="humidity">Lorem.</p>
+                    </div>
+                    <div class="wind">
+                        <div class="tile">
+                            <h6>Current Wind Speed</h6>
+                            <p class="speed">hello</p>
+                        </div>
+                        <div class="tile">
+                            <h6>Current degrees</h6>
+                            <p class="deg">hello</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="../src/index.js"></script>
+</body>
+
+</html>
