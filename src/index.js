@@ -1,4 +1,4 @@
-console.log('Running......')
+
 const country = document.querySelector('#country');
 const city = document.querySelector('#city');
 const search = document.querySelector('.search');
